@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ACME</title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="/public/stylesheets/main.css" />
+  </head>
+  <body>
+    <div class="standardpage">
+      <!-- Start of Header -->
+      <div class="container header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="/public/images/logo.png" />
+            <img
+              class="logo-mobile"
+              src="/public/images/logo-mobile.png"
+              style="display: none;"
+            />
+          </a>
+          <div class="slogan">
+            <span class="slogan1">Research Professional</span>
+            <h1 class="slogan2">Platform</h1>
+          </div>
+          <div class="vl"></div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <p class="text-center sitelinkMenu" style="display: none;">
+              Site links
+            </p>
+            <hr />
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Insights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- End of Header -->
+
+      <!-- Section1 -->
+      <div class="section1">
+        <div class="container sec1-desc">
+          <h1>ACME Wealth</h1>
+          <h1>Management Platforms</h1>
+          <div class="subDesc">
+            <h2>Investment excellence.</h2>
+            <h2>Diversity of thought.</h2>
+            <h2>Organizational strength.</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="section1-mobile" style="display: none;">
+        <div class="container">
+          <h6>Research Professional Platform</h6>
+          <div class="subDesc">
+            <h5>ACME Wealth</h5>
+            <h1>Management Platforms</h1>
+            <p>. . . . . . . . . . . . . . .</p>
+            <h5>Investment excellence.</h5>
+            <h5>Diversity of thought.</h5>
+            <h5>Organizational strength.</h5>
+          </div>
+        </div>
+      </div>
+      <!-- End of Section1 -->
+
+      <!-- Section2 -->
+      <div class="section2">
+        <div class="container">
+          <h2>ACME Insights</h2>
+          <p>How are factors being used around the world?</p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="sec2-img1 aa">
+                <img src="/public/images/sec2img1.png" />
+                <h3>Global Factor</h3>
+                <h3>Investing Study</h3>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="sec2-img2 aa">
+                <img src="/public/images/sec2img2.png" />
+                <h3>2019</h3>
+                <h3>Outlook</h3>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="sec2-img3 aa">
+                <img src="/public/images/sec2img3.png" />
+                <h3>Capital Market</h3>
+                <h3>Assumptions</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2-mobile" style="display: none;">
+        <div class="container">
+          <h2>ACME Insights</h2>
+          <p>How are factors being used around the world?</p>
+          <div
+            id="carouselExampleIndicatorss"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicatorss"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicatorss"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicatorss"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="col-md-4">
+                  <div class="sec2-img1 aa">
+                    <img
+                      src="/public/images/sec2img1.png"
+                      class="img-responsive"
+                    />
+                    <h3>Global Factor</h3>
+                    <h3>Investing Study</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="sec2-img2 aa">
+                    <img src="/public/images/sec2img2.png" />
+                    <h3>2019</h3>
+                    <h3>Outlook</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="sec2-img3 aa">
+                    <img src="/public/images/sec2img3.png" />
+                    <h3>Capital Market</h3>
+                    <h3>Assumptions</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Section2 -->
+
+      <!-- Start of Section3 -->
+      <div class="section3">
+        <div class="container text-center">
+          <h1>Our commitment to Professionals</h1>
+          <h5>
+            We help our partners deliver industry leading results with a
+            commitment to excellence, thought-provoking insights and experienced
+            distribution. We are laser focused on our shared goal - helping
+            clients achieve their objectives.
+          </h5>
+          <a id="contactUs" href="#">Contact Us</a>
+        </div>
+      </div>
+      <!-- End of Section3 -->
+
+      <!-- Start of Section4 -->
+      <div class="section4">
+        <div class="container">
+          <h2>Upcoming Events</h2>
+          <p>This needs a great tagline, but I'll finish it later</p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="sec2-img1 aa">
+                <img src="/public/images/01.png" />
+                <div class="sec4-content">
+                  <h4>Insight Exchange Network</h4>
+                  <p>Join us for conference showcasing innovation.</p>
+                  <a class="getInsight" href="#">Get More Insight</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="sec2-img2 aa">
+                <img src="/public/images/02.png" />
+                <div class="sec4-content">
+                  <h4>City Buyer's Retreat</h4>
+                  <p>
+                    Find out how banks are responding to the chaging future of
+                    interest...
+                  </p>
+                  <a class="getInsight" href="#">Get More Insight</a>
+                </div>
+                <h5>The Wagner, New York</h5>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="sec2-img3 aa">
+                <img src="/public/images/03.png" />
+                <div class="sec4-content">
+                  <h4>Research Exchange</h4>
+                  <p>
+                    Find the best online resources to help with your
+                    investments...
+                  </p>
+                  <a class="getInsight" href="#">Get More Insight</a>
+                </div>
+                <h5>London, England</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section4-mobile" style="display: none;">
+        <div class="container">
+          <h2>Upcoming <span>Events</span></h2>
+          <p>
+            At ACME, we're dedicated to learning, connecting, and exploring
+            opportunities.
+          </p>
+
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="col-md-4">
+                  <div class="sec2-img1 aa">
+                    <img src="/public/images/01.png" />
+                    <div class="sec4-content">
+                      <h4>Insight Exchange Network</h4>
+                      <p>Join us for conference showcasing innovation.</p>
+                      <a class="getInsight" href="#">Get More Insight</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="sec2-img2 aa">
+                    <img src="/public/images/02.png" />
+                    <div class="sec4-content">
+                      <h4>City Buyer's Retreat</h4>
+                      <p>
+                        Find out how banks are responding to the chaging future
+                        of interest...
+                      </p>
+                      <a class="getInsight" href="#">Get More Insight</a>
+                    </div>
+                    <h5>The Wagner, New York</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="sec2-img3 aa">
+                    <img src="/public/images/03.png" />
+                    <div class="sec4-content">
+                      <h4>Research Exchange</h4>
+                      <p>
+                        Find the best online resources to help with your
+                        investments...
+                      </p>
+                      <a class="getInsight" href="#">Get More Insight</a>
+                    </div>
+                    <h5>London, England</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <img src="/public/images/Logo-only.png" class="bottomLogo" />
+        </div>
+      </div>
+      <!-- End of Section4 -->
+
+      <!-- Section5 -->
+      <div class="section5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-12">
+              <p>Call us at 111-222-3333</p>
+              <p>for more information</p>
+            </div>
+            <div class="flex-container footer col-md-7 col-sm-12">
+              <ul>
+                <li>Social Share</li>
+                <li>
+                  <a href="#"><img src="/public/images/twitter.png" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/public/images/facebook.png" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/public/images/linkedin.png" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/public/images/email.png" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section5 Mobile -->
+      <div class="section5-mobile" style="display: none;">
+        <div class="container">
+          <div class="topFooterMenu">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </div>
+          <p class="text-center">Site Links</p>
+
+          <hr />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Insights</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Due Diligence</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End of Section5 -->
+    </div>
+  </body>
+</html>
